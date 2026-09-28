@@ -7,3 +7,7 @@
 - The 2025 paper's Supplementary Data 2-6 workbook contains per-phage depolymerase KL targets but does not replace the full 30x24 strain-level Townsend matrix. Two other infection matrices in that paper (Beamud, Ferriol-Gonzalez) overlap PhageHostLearn sources and remain barred from external evaluation.
 
 Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC8006926/ ; https://www.culturecollections.org.uk/products/bacteria-and-mycoplasmas/antimicrobial-resistance-strains/antimicrobial-resistance-reference-strains/ ; https://www.nature.com/articles/s41467-024-48675-6 ; https://www.nature.com/articles/s41467-025-63861-w ; https://zenodo.org/records/11061100 ; https://zenodo.org/records/14852842 .
+
+## Frozen-gate outcome (added 00:50 IST)
+
+CRKP plaque-positive counts across the four NCTC carbapenemase hosts: 3 / 1 / 0 / 0 (26 lytic phages each, temperate excluded, clearance and turbid excluded). Locked primary gate declared UNDERPOWERED/UNEVALUABLE; see docs/FROZEN-GATE-RESULT-2026-09-29.md. Host genomes resolvable only for 13439 and 13442 via NCBI Assembly; 13440 and 13443 unresolvable (0 hits) and are quarantined, not skipped. BLASTP unavailable in this environment, so the RBP-family homology screen is blocked and unscoreable sequences stay quarantined. KL-type label mapping for the 200 training hosts is not present in the deposited PhageHostLearn data (Locibase is protein sequences keyed by strain ID); a Kaptive rerun on host genomes would be needed for the same-KL sensitivity analysis.
