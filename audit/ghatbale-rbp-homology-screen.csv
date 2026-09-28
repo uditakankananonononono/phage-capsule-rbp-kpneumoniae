@@ -1,0 +1,83 @@
+query,target,pident,alnlen,qlen,tlen,qcov,score,flag,best_for_query
+APV|rbp0|tail fibers protein,K65PH164|K65PH164_gp55,39.7,310,461,448,67.2,571,True,
+APV|rbp0|tail fibers protein,K65PH164|K65PH164_gp55,39.7,310,461,448,67.2,571,False,True
+APV|rbp1|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,45.6,1298,1253,1281,103.6,2644,True,
+APV|rbp1|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,45.6,1298,1253,1281,103.6,2644,False,True
+APV|rbp2|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,53.9,371,374,378,99.2,1007,True,
+APV|rbp2|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,53.9,371,374,378,99.2,1007,False,True
+APV|rbp3|hinge connector of long tail fiber dista,K65PH164|K65PH164_gp148,47.5,223,222,215,100.5,462,True,
+APV|rbp3|hinge connector of long tail fiber dista,K65PH164|K65PH164_gp148,47.5,223,222,215,100.5,462,False,True
+APV|rbp4|L-shaped tail fiber protein,K50PH164C1|K50PH164C1_gp36,38.4,1121,1321,1314,84.9,1698,True,
+APV|rbp4|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,43.1,1506,1321,1477,114.0,2647,True,
+APV|rbp4|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,43.1,1506,1321,1477,114.0,2647,False,True
+APV|rbp5|distal long tail fiber assembly catalyst,S13c|S13c_gp60,23.4,171,175,1240,97.7,61,False,True
+Ace|rbp0|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,45.1,1303,1257,1281,103.7,2628,True,
+Ace|rbp0|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,45.1,1303,1257,1281,103.7,2628,False,True
+Ace|rbp1|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,54.2,371,374,378,99.2,1009,True,
+Ace|rbp1|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,54.2,371,374,378,99.2,1009,False,True
+Ace|rbp2|hinge connector of long tail fiber dista,K65PH164|K65PH164_gp148,47.1,223,222,215,100.5,457,True,
+Ace|rbp2|hinge connector of long tail fiber dista,K65PH164|K65PH164_gp148,47.1,223,222,215,100.5,457,False,True
+Ace|rbp3|L-shaped tail fiber protein,K50PH164C1|K50PH164C1_gp36,32.5,763,1235,1314,61.8,812,True,
+Ace|rbp3|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,49.1,1539,1235,1477,124.6,3382,True,
+Ace|rbp3|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,49.1,1539,1235,1477,124.6,3382,False,True
+Ace|rbp4|distal long tail fiber assembly catalyst,K33PH14C2|K33PH14C2_gp84,24.4,160,175,882,91.4,61,False,True
+Ace|rbp5|tail fibers protein,K65PH164|K65PH164_gp55,41.0,310,461,448,67.2,592,True,
+Ace|rbp5|tail fibers protein,K65PH164|K65PH164_gp55,41.0,310,461,448,67.2,592,False,True
+LK1|rbp0|tail fibers protein,K65PH164|K65PH164_gp55,40.6,310,461,448,67.2,586,True,
+LK1|rbp0|tail fibers protein,K65PH164|K65PH164_gp55,40.6,310,461,448,67.2,586,False,True
+LK1|rbp1|distal long tail fiber assembly catalyst,S11a|S11a_gp41,22.4,170,175,633,97.1,61,False,True
+LK1|rbp2|L-shaped tail fiber protein,K50PH164C1|K50PH164C1_gp36,31.3,1131,1243,1314,91.0,1102,True,
+LK1|rbp2|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,60.9,1479,1243,1477,119.0,4311,True,
+LK1|rbp2|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,60.9,1479,1243,1477,119.0,4311,False,True
+LK1|rbp3|hinge connector of long tail fiber dista,K65PH164|K65PH164_gp148,47.1,223,222,215,100.5,457,True,
+LK1|rbp3|hinge connector of long tail fiber dista,K65PH164|K65PH164_gp148,47.1,223,222,215,100.5,457,False,True
+LK1|rbp4|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,53.9,371,374,378,99.2,1007,True,
+LK1|rbp4|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,53.9,371,374,378,99.2,1007,False,True
+LK1|rbp5|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,45.4,1303,1257,1281,103.7,2643,True,
+LK1|rbp5|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,45.4,1303,1257,1281,103.7,2643,False,True
+Beam|rbp0|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,75.3,1301,1380,1477,94.3,4949,True,
+Beam|rbp0|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,75.3,1301,1380,1477,94.3,4949,False,True
+Beam|rbp1|tail fibers protein,K65PH164|K65PH164_gp148,55.8,226,225,215,100.4,561,True,
+Beam|rbp1|tail fibers protein,K65PH164|K65PH164_gp148,55.8,226,225,215,100.4,561,False,True
+Beam|rbp2|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,52.5,375,377,378,99.5,956,True,
+Beam|rbp2|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,52.5,375,377,378,99.5,956,False,True
+Beam|rbp3|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,49.7,1313,1277,1281,102.8,3064,True,
+Beam|rbp3|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,49.7,1313,1277,1281,102.8,3064,False,True
+Beam|rbp4|tail fiber protein,K7PH164C4|K7PH164C4_gp55,29.2,89,107,948,83.2,47,False,True
+Beam|rbp5|tail fibers protein,A1c|A1c_gp45,25.3,146,163,651,89.6,73,False,True
+Beam|rbp6|straight tail fiber,K65PH164|K65PH164_gp55,55.8,452,451,448,100.2,1314,True,
+Beam|rbp6|straight tail fiber,K65PH164|K65PH164_gp55,55.8,452,451,448,100.2,1314,False,True
+KL35|rbp0|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,89.1,1474,1474,1477,100.0,6839,True,
+KL35|rbp0|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,89.1,1474,1474,1477,100.0,6839,False,True
+KL35|rbp1|tail fibers protein,K65PH164|K65PH164_gp148,60.4,240,225,215,106.7,651,True,
+KL35|rbp1|tail fibers protein,K65PH164|K65PH164_gp148,60.4,240,225,215,106.7,651,False,True
+KL35|rbp2|tail fiber protein,K65PH164|K65PH164_gp147,97.4,378,378,378,100.0,1922,True,
+KL35|rbp2|tail fiber protein,K65PH164|K65PH164_gp147,97.4,378,378,378,100.0,1922,False,True
+KL35|rbp3|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,96.6,1281,1281,1281,100.0,6392,True,
+KL35|rbp3|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,96.6,1281,1281,1281,100.0,6392,False,True
+KL35|rbp4|tail fibers protein,K1PH164C1|K1PH164C1_gp58,28.9,97,163,651,59.5,66,False,True
+KL35|rbp5|straight tail fiber,K65PH164|K65PH164_gp55,99.6,448,448,448,100.0,2295,True,
+KL35|rbp5|straight tail fiber,K65PH164|K65PH164_gp55,99.6,448,448,448,100.0,2295,False,True
+Rec|rbp0|L-shaped tail fiber protein,K50PH164C1|K50PH164C1_gp36,35.6,841,1391,1314,60.5,1079,True,
+Rec|rbp0|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,83.6,1318,1391,1477,94.8,5648,True,
+Rec|rbp0|L-shaped tail fiber protein,K65PH164|K65PH164_gp149,83.6,1318,1391,1477,94.8,5648,False,True
+Rec|rbp1|tail fibers protein,K65PH164|K65PH164_gp148,91.2,216,216,215,100.0,1010,True,
+Rec|rbp1|tail fibers protein,K65PH164|K65PH164_gp148,91.2,216,216,215,100.0,1010,False,True
+Rec|rbp2|tail fiber protein,K65PH164|K65PH164_gp147,98.9,378,378,378,100.0,1958,True,
+Rec|rbp2|tail fiber protein,K65PH164|K65PH164_gp147,98.9,378,378,378,100.0,1958,False,True
+Rec|rbp3|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,97.0,1281,1281,1281,100.0,6416,True,
+Rec|rbp3|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,97.0,1281,1281,1281,100.0,6416,False,True
+Rec|rbp4|tail fibers protein,K1PH164C1|K1PH164C1_gp58,28.9,97,163,651,59.5,66,False,True
+Rec|rbp5|straight tail fiber,K65PH164|K65PH164_gp55,96.7,448,448,448,100.0,2250,True,
+Rec|rbp5|straight tail fiber,K65PH164|K65PH164_gp55,96.7,448,448,448,100.0,2250,False,True
+Turmeric|rbp0|straight tail fiber,K65PH164|K65PH164_gp55,99.3,448,448,448,100.0,2292,True,
+Turmeric|rbp0|straight tail fiber,K65PH164|K65PH164_gp55,99.3,448,448,448,100.0,2292,False,True
+Turmeric|rbp1|tail fiber protein,K65PH164|K65PH164_gp149,52.7,1437,1459,1477,98.5,3469,True,
+Turmeric|rbp1|tail fiber protein,K65PH164|K65PH164_gp149,52.7,1437,1459,1477,98.5,3469,False,True
+Turmeric|rbp2|tail fibers protein,K65PH164|K65PH164_gp148,65.3,225,220,215,102.3,647,True,
+Turmeric|rbp2|tail fibers protein,K65PH164|K65PH164_gp148,65.3,225,220,215,102.3,647,False,True
+Turmeric|rbp3|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,96.3,378,378,378,100.0,1913,True,
+Turmeric|rbp3|hinge connector of long tail fiber proxi,K65PH164|K65PH164_gp147,96.3,378,378,378,100.0,1913,False,True
+Turmeric|rbp4|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,96.3,1281,1281,1281,100.0,6388,True,
+Turmeric|rbp4|long tail fiber proximal subunit,K65PH164|K65PH164_gp146,96.3,1281,1281,1281,100.0,6388,False,True
+Turmeric|rbp5|tail fibers protein,K1PH164C1|K1PH164C1_gp58,28.9,97,163,651,59.5,66,False,True

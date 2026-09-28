@@ -1,0 +1,153 @@
+{
+  "APV": {
+    "acc": "PQ621122",
+    "n_cds": 281,
+    "rbp_candidates": [
+      "tail completion and sheath stabilizer protein",
+      "baseplate wedge tail fiber connector",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge subunit and tail pin",
+      "tail fibers protein",
+      "tail sheath stabilizer and completion protein",
+      "tail sheath protein",
+      "tail tube protein",
+      "long tail fiber proximal subunit",
+      "hinge connector of long tail fiber proximal\n                     connector",
+      "hinge connector of long tail fiber distal\n                     connector",
+      "L-shaped tail fiber protein",
+      "distal long tail fiber assembly catalyst",
+      "NudE nudix hydrolase"
+    ]
+  },
+  "Ace": {
+    "acc": "PQ621123",
+    "n_cds": 280,
+    "rbp_candidates": [
+      "long tail fiber proximal subunit",
+      "hinge connector of long tail fiber proximal\n                     connector",
+      "hinge connector of long tail fiber distal\n                     connector",
+      "L-shaped tail fiber protein",
+      "distal long tail fiber assembly catalyst",
+      "NudE nudix hydrolase",
+      "tail completion and sheath stabilizer protein",
+      "baseplate wedge tail fiber connector",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge subunit and tail pin",
+      "tail fibers protein",
+      "tail sheath stabilizer and completion protein",
+      "tail sheath protein",
+      "tail tube protein"
+    ]
+  },
+  "LK1": {
+    "acc": "PQ529758",
+    "n_cds": 284,
+    "rbp_candidates": [
+      "tail tube protein",
+      "tail sheath protein",
+      "tail sheath stabilizer and completion protein",
+      "tail fibers protein",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge tail fiber connector",
+      "tail completion and sheath stabilizer protein",
+      "NudE nudix hydrolase",
+      "distal long tail fiber assembly catalyst",
+      "L-shaped tail fiber protein",
+      "hinge connector of long tail fiber distal\n                     connector",
+      "hinge connector of long tail fiber proximal\n                     connector",
+      "long tail fiber proximal subunit"
+    ]
+  },
+  "Beam": {
+    "acc": "PQ621133",
+    "n_cds": 295,
+    "rbp_candidates": [
+      "L-shaped tail fiber protein",
+      "tail fibers protein",
+      "hinge connector of long tail fiber proximal\n                     connector",
+      "long tail fiber proximal subunit",
+      "tail fiber protein",
+      "tail assembly protein",
+      "baseplate tail tube cap",
+      "tail fibers protein",
+      "tail sheath",
+      "tail sheath stabilizer and completion protein",
+      "straight tail fiber",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge tail fiber connector",
+      "tail completion protein",
+      "putative Nudix hydrolase NudL"
+    ]
+  },
+  "KL35": {
+    "acc": "PQ621124",
+    "n_cds": 292,
+    "rbp_candidates": [
+      "L-shaped tail fiber protein",
+      "tail fibers protein",
+      "tail fiber protein",
+      "long tail fiber proximal subunit",
+      "tail assembly protein",
+      "baseplate tail tube cap",
+      "tail fibers protein",
+      "tail sheath",
+      "tail sheath stabilizer and completion protein",
+      "straight tail fiber",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge tail fiber connector",
+      "tail completion protein",
+      "Nudix hydrolase"
+    ]
+  },
+  "Rec": {
+    "acc": "PQ621132",
+    "n_cds": 294,
+    "rbp_candidates": [
+      "L-shaped tail fiber protein",
+      "tail fibers protein",
+      "tail fiber protein",
+      "long tail fiber proximal subunit",
+      "tail assembly protein",
+      "baseplate tail tube cap",
+      "tail fibers protein",
+      "tail sheath",
+      "tail sheath stabilizer and completion protein",
+      "straight tail fiber",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge tail fiber connector",
+      "tail completion protein",
+      "Nudix hydrolase"
+    ]
+  },
+  "Turmeric": {
+    "acc": "PQ621121",
+    "n_cds": 295,
+    "rbp_candidates": [
+      "straight tail fiber",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge subunit and tail pin",
+      "baseplate wedge tail fiber connector",
+      "tail completion protein",
+      "Nudix hydrolase",
+      "tail fiber protein",
+      "tail fibers protein",
+      "hinge connector of long tail fiber proximal\n                     connector",
+      "long tail fiber proximal subunit",
+      "tail assembly protein",
+      "baseplate tail tube cap",
+      "tail fibers protein",
+      "tail sheath",
+      "tail sheath stabilizer and completion protein"
+    ]
+  },
+  "Chai": {
+    "acc": "PQ621128",
+    "n_cds": 42,
+    "rbp_candidates": [
+      "endolysin"
+    ]
+  }
+}

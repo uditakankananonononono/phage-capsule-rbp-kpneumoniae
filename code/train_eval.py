@@ -22,9 +22,9 @@ print('eligible held-out hosts:',len(elig),flush=True)
 res=[];t0=time.time()
 for i,h in enumerate(elig):
     m_te=hid==h; m_tr=~m_te
-    m=XGBClassifier(n_estimators=100,max_depth=5,learning_rate=0.15,subsample=0.9,
+    m=XGBClassifier(n_estimators=60,max_depth=4,learning_rate=0.2,subsample=0.9,
                     colsample_bytree=0.8,eval_metric='logloss',random_state=SEED,
-                    n_jobs=4,tree_method='hist')
+                    n_jobs=8,tree_method='hist')
     m.fit(X[m_tr],y[m_tr])
     s=m.predict_proba(X[m_te])[:,1]; yte=y[m_te]
     top=np.argsort(-s)[:5]
