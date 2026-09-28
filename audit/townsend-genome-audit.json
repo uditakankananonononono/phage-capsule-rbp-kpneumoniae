@@ -1,0 +1,288 @@
+[
+  {
+    "name": "vB_KppS-Eggy",
+    "project": "PRJEB40146",
+    "lifecycle_paper": "T",
+    "accession": "LR881076",
+    "description": "Klebsiella phage vB_KppS-Eggy genome assembly, chromosome: 1",
+    "length": 60681,
+    "genome_sha256": "dc3c2a479b0036acc66f04f08554e724956f850d96dcf2eda3d68f7c10a86791",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KppS-Pokey",
+    "project": "PRJEB40147",
+    "lifecycle_paper": "T",
+    "accession": "LR881077",
+    "description": "Klebsiella phage vB_KppS-Pokey genome assembly, chromosome: 1",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "vB_KppS-Raw",
+    "project": "PRJEB40132",
+    "lifecycle_paper": "T",
+    "accession": "LR880964",
+    "description": "Klebsiella phage vB_KppS-Raw genome assembly, chromosome: 1",
+    "length": 60681,
+    "genome_sha256": "21377be48fbd9677d4589ec6dc768744333ebe327d031cc88e4308fd70e38322",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KppS-Ant",
+    "project": "PRJEB40148",
+    "lifecycle_paper": "T",
+    "accession": "LR881103",
+    "description": "Escherichia phage vB_KppS-Ant genome assembly, chromosome: 1",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "vB_KaS-Ahsoka",
+    "project": "PRJEB40160",
+    "lifecycle_paper": "L",
+    "accession": "LR881108",
+    "description": "Klebsiella phage vB_KaS-Ahsoka genome assembly, chromosome: 1",
+    "length": 49702,
+    "genome_sha256": "e9cdd3515146459805331c6a86c5b781cd021540e9e94bc502d995a32762f537",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KaS-Gatomon",
+    "project": "PRJEB40159",
+    "lifecycle_paper": "L",
+    "accession": "LR881110",
+    "description": "Klebsiella phage vB_KaS-Gatomon genome assembly, chromosome: 1",
+    "length": 49702,
+    "genome_sha256": "88e09856e9edd30721c2a14495e8273f93206eb875220bfd81dc65c6c25bc801",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KppS-Samwise",
+    "project": "PRJEB40161",
+    "lifecycle_paper": "L",
+    "accession": "LR881107",
+    "description": "Klebsiella phage vB_KppS-Samwise genome assembly, chromosome: 1",
+    "length": 49891,
+    "genome_sha256": "e6193c07eea273c2e1688d6610c1e5723c00615f7c3420f9c21939df1b2657e1",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KvM-Eowyn",
+    "project": "PRJEB40131",
+    "lifecycle_paper": "L",
+    "accession": "LR881104",
+    "description": "Klebsiella phage vB_KvM-Eowyn genome assembly, chromosome: 1",
+    "length": 265389,
+    "genome_sha256": "a00aa2b573bc9c46abdde907a4a9c40d5d8c56bba812a03cd0d551fc7bf41e1b",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KpP-Screen",
+    "project": "PRJEB40164",
+    "lifecycle_paper": "L",
+    "accession": "LR881105",
+    "description": "Klebsiella phage vB_KpP-Screen genome assembly, chromosome: 1",
+    "length": 43749,
+    "genome_sha256": "e715ad64ae688d1ddeada2ebd0fbc6f395e88303860d81f2c55e08fc7804c87d",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KpP-Yoda",
+    "project": "PRJEB40162",
+    "lifecycle_paper": "L",
+    "accession": "LR881111",
+    "description": "Klebsiella phage vB_KpP-Yoda genome assembly, chromosome: 1",
+    "length": 44122,
+    "genome_sha256": "a39bee89528b6b19cdea2bf2e86bac34657dc6af6ae95c2c691d5897282e9aa2",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KqP-Goliath",
+    "project": "PRJEB40163",
+    "lifecycle_paper": "L",
+    "accession": "LR881106",
+    "description": "Klebsiella phage vB_KqP-Goliath genome assembly, chromosome: 1",
+    "length": 44010,
+    "genome_sha256": "e76533862550914d7df9d95a1b450df010635ee4a03c52c4c3c96c49cbea8c8c",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KaS-Benoit",
+    "project": "PRJEB39773",
+    "lifecycle_paper": "L",
+    "accession": "LR880965",
+    "description": "Klebsiella phage vB_KaS-Benoit genome assembly, chromosome: 1",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "vB_KaS-Veronica",
+    "project": "PRJEB40165",
+    "lifecycle_paper": "L",
+    "accession": "LR881116",
+    "description": "Klebsiella phage vB_KaS-Veronica genome assembly, chromosome: 1",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "vB_KppS-Anoxic",
+    "project": "PRJEB40170",
+    "lifecycle_paper": "L",
+    "accession": "LR881109",
+    "description": "Klebsiella phage vB_KppS-Anoxic genome assembly, chromosome: 1",
+    "length": 109500,
+    "genome_sha256": "d0922fe5181525e52cd43bf68484dd00e7f1e3ec31c361aeea4429e2b30a3a77",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KppS-Jiji",
+    "project": "PRJEB40168",
+    "lifecycle_paper": "L",
+    "accession": "LR881114",
+    "description": "Klebsiella phage vB_KppS-Jiji genome assembly, chromosome: 1",
+    "length": 113155,
+    "genome_sha256": "cab7d60c30982ba34ade59128b0070be0a38636338ccba4ba9bde643c717c9b7",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KppS-Ponyo",
+    "project": "PRJEB40167",
+    "lifecycle_paper": "L",
+    "accession": "LR881115",
+    "description": "Klebsiella phage vB_KppS-Ponyo genome assembly, chromosome: 1",
+    "length": 109014,
+    "genome_sha256": "dbdede678cc384eba56c0602b4d32e29ad7b92d7ae67a4b0c95d85a931251746",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KppS-Storm",
+    "project": "PRJEB40169",
+    "lifecycle_paper": "L",
+    "accession": "LR881112",
+    "description": "Klebsiella phage vB_KppS-Storm genome assembly, chromosome: 1",
+    "length": 110834,
+    "genome_sha256": "6263a01a90ccca93e169f368d40081f6d50678130906edd5952cc54d6183d9a6",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KppS-Totoro",
+    "project": "PRJEB40166",
+    "lifecycle_paper": "L",
+    "accession": "LR881113",
+    "description": "Klebsiella phage vB_KppS-Totoro genome assembly, chromosome: 1",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "vB_KqM-Bilbo",
+    "project": "PRJEB40172",
+    "lifecycle_paper": "L",
+    "accession": "LR881138",
+    "description": "Klebsiella phage vB_KqM-Bilbo genome assembly, chromosome: 1",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "vB_KqM-LilBean",
+    "project": "PRJEB40171",
+    "lifecycle_paper": "L",
+    "accession": "LR881139",
+    "description": "Klebsiella phage vB_KqM-LilBean genome assembly, chromosome: 1",
+    "length": 158858,
+    "genome_sha256": "c7ba328631394f84104ec36bb20460a755d6697c407ac5ad7337d46d7575299e",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KqM-Westerburg",
+    "project": "PRJEB40173",
+    "lifecycle_paper": "L",
+    "accession": "LR881137",
+    "description": "Klebsiella phage vB_KqM-Westerburg genome assembly, chromosome: 1",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "vB_KoM-Liquor",
+    "project": "PRJEB40174",
+    "lifecycle_paper": "L",
+    "accession": "LR881143",
+    "description": "Klebsiella phage vB_KoM-Liquor genome assembly, chromosome: 1",
+    "length": 176734,
+    "genome_sha256": "8ad1476922291b8ab2083dad1a70fe06d989c5d4d46279656a3b8e88952c84fa",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KoM-MeTiny",
+    "project": "PRJEB40179",
+    "lifecycle_paper": "L",
+    "accession": "LR883651",
+    "description": "Klebsiella phage vB_KoM-MeTiny genome assembly, chromosome: 1",
+    "length": 175419,
+    "genome_sha256": "8d2b12bc8c7e6f61669f5beb86e8bbfefead360b8d4af603056ca4717b2bc01a",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KoM-Pickle",
+    "project": "PRJEB40176",
+    "lifecycle_paper": "L",
+    "accession": "LR881145",
+    "description": "Klebsiella phage vB_KoM-Pickle genome assembly, chromosome: 1",
+    "length": 175221,
+    "genome_sha256": "a48e7803a962d7794cd5ee8ab2011d7963d5d228a99c0ccd554c429fb76b25b2",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KpM-KalD",
+    "project": "PRJEB40178",
+    "lifecycle_paper": "L",
+    "accession": "LR881140",
+    "description": "Klebsiella phage vB_KpM-KalD genome assembly, chromosome: 1",
+    "length": 174351,
+    "genome_sha256": "bd5a33374d0d4ae55dad750a844a0e1ef4ccea36e5cd6a643334623f5ba42f6a",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KpM-Mild",
+    "project": "PRJEB40177",
+    "lifecycle_paper": "L",
+    "accession": "LR881147",
+    "description": "Klebsiella phage vB_KpM-Mild genome assembly, chromosome: 1",
+    "length": 176856,
+    "genome_sha256": "922da97636162be82d4ec3c166cc2e065f458d0f1070c4a4fc35cbcf9c8feeea",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KoM-Milk",
+    "project": "PRJEB40175",
+    "lifecycle_paper": "L",
+    "accession": "LR881142",
+    "description": "Klebsiella phage vB_KpM-Milk genome assembly, chromosome: 1",
+    "length": 176734,
+    "genome_sha256": "b86804943a868036e5155dbe8f4fcf51fc28374772420b44654804c280eea6db",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KpM-SoFaint",
+    "project": "PRJEB40180",
+    "lifecycle_paper": "L",
+    "accession": "LR881141",
+    "description": "Klebsiella phage vB_KpM-SoFaint genome assembly, chromosome: 1",
+    "length": 175933,
+    "genome_sha256": "f210a0e5d34a501b875acdd58f0468b901cad4dde636f01cc89500b86bd37b4a",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KoM-Flushed",
+    "project": "PRJEB40181",
+    "lifecycle_paper": "L",
+    "accession": "LR881144",
+    "description": "Klebsiella phage vB_KoM-Flushed genome assembly, chromosome: 1",
+    "length": 168773,
+    "genome_sha256": "d443e5b89ab356aaa968630eecfaf1338d8f5fccde55a903ca87b666073f6323",
+    "exact_train_genome_match": false
+  },
+  {
+    "name": "vB_KpM-Wobble",
+    "project": "PRJEB40182",
+    "lifecycle_paper": "L",
+    "accession": "LR881146",
+    "description": "Klebsiella phage vB_KpM-Wobble genome assembly, chromosome: 1",
+    "length": 168530,
+    "genome_sha256": "a8c52519b952ef308df32b43be430be994b047dbe0d9705d0a8d303231b0a5ed",
+    "exact_train_genome_match": false
+  }
+]

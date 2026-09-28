@@ -1,0 +1,212 @@
+[
+  {
+    "name": "vB_KppS-Eggy",
+    "project": "PRJEB40146",
+    "lifecycle_paper": "T",
+    "accession": "LR881076",
+    "description": "Klebsiella phage vB_KppS-Eggy genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Pokey",
+    "project": "PRJEB40147",
+    "lifecycle_paper": "T",
+    "accession": "LR881077",
+    "description": "Klebsiella phage vB_KppS-Pokey genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Raw",
+    "project": "PRJEB40132",
+    "lifecycle_paper": "T",
+    "accession": "LR880964",
+    "description": "Klebsiella phage vB_KppS-Raw genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Ant",
+    "project": "PRJEB40148",
+    "lifecycle_paper": "T",
+    "accession": "LR881103",
+    "description": "Escherichia phage vB_KppS-Ant genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KaS-Ahsoka",
+    "project": "PRJEB40160",
+    "lifecycle_paper": "L",
+    "accession": "LR881108",
+    "description": "Klebsiella phage vB_KaS-Ahsoka genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KaS-Gatomon",
+    "project": "PRJEB40159",
+    "lifecycle_paper": "L",
+    "accession": "LR881110",
+    "description": "Klebsiella phage vB_KaS-Gatomon genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Samwise",
+    "project": "PRJEB40161",
+    "lifecycle_paper": "L",
+    "accession": "LR881107",
+    "description": "Klebsiella phage vB_KppS-Samwise genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KvM-Eowyn",
+    "project": "PRJEB40131",
+    "lifecycle_paper": "L",
+    "accession": "LR881104",
+    "description": "Klebsiella phage vB_KvM-Eowyn genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KpP-Screen",
+    "project": "PRJEB40164",
+    "lifecycle_paper": "L",
+    "accession": "LR881105",
+    "description": "Klebsiella phage vB_KpP-Screen genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KpP-Yoda",
+    "project": "PRJEB40162",
+    "lifecycle_paper": "L",
+    "accession": "LR881111",
+    "description": "Klebsiella phage vB_KpP-Yoda genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KqP-Goliath",
+    "project": "PRJEB40163",
+    "lifecycle_paper": "L",
+    "accession": "LR881106",
+    "description": "Klebsiella phage vB_KqP-Goliath genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KaS-Benoit",
+    "project": "PRJEB39773",
+    "lifecycle_paper": "L",
+    "accession": "LR880965",
+    "description": "Klebsiella phage vB_KaS-Benoit genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KaS-Veronica",
+    "project": "PRJEB40165",
+    "lifecycle_paper": "L",
+    "accession": "LR881116",
+    "description": "Klebsiella phage vB_KaS-Veronica genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Anoxic",
+    "project": "PRJEB40170",
+    "lifecycle_paper": "L",
+    "accession": "LR881109",
+    "description": "Klebsiella phage vB_KppS-Anoxic genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Jiji",
+    "project": "PRJEB40168",
+    "lifecycle_paper": "L",
+    "accession": "LR881114",
+    "description": "Klebsiella phage vB_KppS-Jiji genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Ponyo",
+    "project": "PRJEB40167",
+    "lifecycle_paper": "L",
+    "accession": "LR881115",
+    "description": "Klebsiella phage vB_KppS-Ponyo genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Storm",
+    "project": "PRJEB40169",
+    "lifecycle_paper": "L",
+    "accession": "LR881112",
+    "description": "Klebsiella phage vB_KppS-Storm genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KppS-Totoro",
+    "project": "PRJEB40166",
+    "lifecycle_paper": "L",
+    "accession": "LR881113",
+    "description": "Klebsiella phage vB_KppS-Totoro genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KqM-Bilbo",
+    "project": "PRJEB40172",
+    "lifecycle_paper": "L",
+    "accession": "LR881138",
+    "description": "Klebsiella phage vB_KqM-Bilbo genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KqM-LilBean",
+    "project": "PRJEB40171",
+    "lifecycle_paper": "L",
+    "accession": "LR881139",
+    "description": "Klebsiella phage vB_KqM-LilBean genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KqM-Westerburg",
+    "project": "PRJEB40173",
+    "lifecycle_paper": "L",
+    "accession": "LR881137",
+    "description": "Klebsiella phage vB_KqM-Westerburg genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KoM-Liquor",
+    "project": "PRJEB40174",
+    "lifecycle_paper": "L",
+    "accession": "LR881143",
+    "description": "Klebsiella phage vB_KoM-Liquor genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KoM-MeTiny",
+    "project": "PRJEB40179",
+    "lifecycle_paper": "L",
+    "accession": "LR883651",
+    "description": "Klebsiella phage vB_KoM-MeTiny genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KoM-Pickle",
+    "project": "PRJEB40176",
+    "lifecycle_paper": "L",
+    "accession": "LR881145",
+    "description": "Klebsiella phage vB_KoM-Pickle genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KpM-KalD",
+    "project": "PRJEB40178",
+    "lifecycle_paper": "L",
+    "accession": "LR881140",
+    "description": "Klebsiella phage vB_KpM-KalD genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KpM-Mild",
+    "project": "PRJEB40177",
+    "lifecycle_paper": "L",
+    "accession": "LR881147",
+    "description": "Klebsiella phage vB_KpM-Mild genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KoM-Milk",
+    "project": "PRJEB40175",
+    "lifecycle_paper": "L",
+    "accession": "LR881142",
+    "description": "Klebsiella phage vB_KpM-Milk genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KpM-SoFaint",
+    "project": "PRJEB40180",
+    "lifecycle_paper": "L",
+    "accession": "LR881141",
+    "description": "Klebsiella phage vB_KpM-SoFaint genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KoM-Flushed",
+    "project": "PRJEB40181",
+    "lifecycle_paper": "L",
+    "accession": "LR881144",
+    "description": "Klebsiella phage vB_KoM-Flushed genome assembly, chromosome: 1"
+  },
+  {
+    "name": "vB_KpM-Wobble",
+    "project": "PRJEB40182",
+    "lifecycle_paper": "L",
+    "accession": "LR881146",
+    "description": "Klebsiella phage vB_KpM-Wobble genome assembly, chromosome: 1"
+  }
+]
