@@ -1,0 +1,90 @@
+[
+  {
+    "accession": "PQ621130",
+    "description": ">PQ621130.1 Klebsiella phage LK3, complete genome",
+    "length": 49048,
+    "sha256": "a24fbeaa1c44ee1dca2f5db7aed7b133e221eff452e53f7572199b57f3332c12",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621129",
+    "description": ">PQ621129.1 Klebsiella phage LK2, complete genome",
+    "length": 37934,
+    "sha256": "ed78976153018746bf8d31a49c9a5a776ef9d4d2a3bc2714bd89abb47decf0d4",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621128",
+    "description": ">PQ621128.1 Klebsiella phage Chai, complete genome",
+    "length": 38369,
+    "sha256": "074c0fd5f06ee5514d2c179167ce1e68a0fe083f79e3af3a087a815cf801701a",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621122",
+    "description": ">PQ621122.1 Klebsiella phage APV, complete genome",
+    "length": 176400,
+    "sha256": "20d0d4493eb9fd2a1832606eaacae210a4c61a997ac3725091b6521b884726f4",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621123",
+    "description": ">PQ621123.1 Klebsiella phage ACE, complete genome",
+    "length": 175589,
+    "sha256": "cd23fa51f7bca680f2f2bc5c44293d3438bca417bfa7d88089c925eba5b5d912",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ529758",
+    "description": ">PQ529758.1 Klebsiella phage LK1, complete genome",
+    "length": 177771,
+    "sha256": "54097f9c6fcc51fcb3d5d2ee704e5d83bbcdd4f279b5f02eed704108f4581fb8",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621133",
+    "description": ">PQ621133.1 Klebsiella phage Beam, complete genome",
+    "length": 170432,
+    "sha256": "8a2003e8a3760342ea06901c20fb0ba3d668409c560b991d0c764e646960940b",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621124",
+    "description": ">PQ621124.1 Klebsiella phage KL35, complete genome",
+    "length": 165835,
+    "sha256": "1247e66be79270b970b344d7250f496eee78c7c42e0e7132e7aac93cf7d443b3",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621131",
+    "description": ">PQ621131.1 Klebsiella phage QTY, complete genome",
+    "length": 167428,
+    "sha256": "a933e00b3e3cd06a5fdc21256dfa089e08959af30b36a694a17d1594a07c5eb1",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621132",
+    "description": ">PQ621132.1 Klebsiella phage Rec, complete genome",
+    "length": 167933,
+    "sha256": "0039fa1fb3b56d5622315fc028bc4f544809365af05877faa819d2706fc2b59f",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  },
+  {
+    "accession": "PQ621121",
+    "description": ">PQ621121.1 Klebsiella phage Turmeric, complete genome",
+    "length": 165747,
+    "sha256": "a051f225cf915f9bac96936ba1a314b7f901645c74240540e5123eee70c9e1e6",
+    "exact_train_match": false,
+    "exact_townsend_match": false
+  }
+]

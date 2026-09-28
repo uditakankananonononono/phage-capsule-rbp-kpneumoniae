@@ -1,0 +1,170 @@
+{
+  "method": "MinHash k=21, sketch=2000, forward strand; ANI estimate = 1 - Mash distance; VIRIDIC species threshold 95%: >=95 flagged for full-alignment confirmation, else clean at this resolution",
+  "table": [
+    {
+      "phage": "LK3",
+      "acc": "PQ621130",
+      "length_bp": 49048,
+      "best_training": {
+        "jaccard": 0.2602,
+        "ani_estimate_pct": 95.79,
+        "match": "K52PH129C1"
+      },
+      "best_townsend": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "vB_KvM-Eowyn"
+      }
+    },
+    {
+      "phage": "LK2",
+      "acc": "PQ621129",
+      "length_bp": 37934,
+      "best_training": {
+        "jaccard": 0.3836,
+        "ani_estimate_pct": 97.19,
+        "match": "K8PH128"
+      },
+      "best_townsend": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "vB_KvM-Eowyn"
+      }
+    },
+    {
+      "phage": "Chai",
+      "acc": "PQ621128",
+      "length_bp": 38369,
+      "best_training": {
+        "jaccard": 0.1926,
+        "ani_estimate_pct": 94.62,
+        "match": "K48PH164C1"
+      },
+      "best_townsend": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "vB_KvM-Eowyn"
+      }
+    },
+    {
+      "phage": "APV",
+      "acc": "PQ621122",
+      "length_bp": 176400,
+      "best_training": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "S9a"
+      },
+      "best_townsend": {
+        "jaccard": 0.5848,
+        "ani_estimate_pct": 98.55,
+        "match": "vB_KoM-Liquor"
+      }
+    },
+    {
+      "phage": "ACE",
+      "acc": "PQ621123",
+      "length_bp": 175589,
+      "best_training": {
+        "jaccard": 0.0003,
+        "ani_estimate_pct": 63.81,
+        "match": "K65PH164"
+      },
+      "best_townsend": {
+        "jaccard": 0.6598,
+        "ani_estimate_pct": 98.91,
+        "match": "vB_KpM-Mild"
+      }
+    },
+    {
+      "phage": "LK1",
+      "acc": "PQ529758",
+      "length_bp": 177771,
+      "best_training": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "S9a"
+      },
+      "best_townsend": {
+        "jaccard": 0.5987,
+        "ani_estimate_pct": 98.62,
+        "match": "vB_KpM-SoFaint"
+      }
+    },
+    {
+      "phage": "Beam",
+      "acc": "PQ621133",
+      "length_bp": 170432,
+      "best_training": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "S9a"
+      },
+      "best_townsend": {
+        "jaccard": 0.0003,
+        "ani_estimate_pct": 63.81,
+        "match": "vB_KpM-SoFaint"
+      }
+    },
+    {
+      "phage": "KL35",
+      "acc": "PQ621124",
+      "length_bp": 165835,
+      "best_training": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "S9a"
+      },
+      "best_townsend": {
+        "jaccard": 0.0013,
+        "ani_estimate_pct": 71.47,
+        "match": "vB_KpM-SoFaint"
+      }
+    },
+    {
+      "phage": "QTY",
+      "acc": "PQ621131",
+      "length_bp": 167428,
+      "best_training": {
+        "jaccard": 0.355,
+        "ani_estimate_pct": 96.92,
+        "match": "K65PH164"
+      },
+      "best_townsend": {
+        "jaccard": 0.3913,
+        "ani_estimate_pct": 97.26,
+        "match": "vB_KpM-Wobble"
+      }
+    },
+    {
+      "phage": "Rec",
+      "acc": "PQ621132",
+      "length_bp": 167933,
+      "best_training": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "S9a"
+      },
+      "best_townsend": {
+        "jaccard": 0.001,
+        "ani_estimate_pct": 70.41,
+        "match": "vB_KoM-MeTiny"
+      }
+    },
+    {
+      "phage": "Turmeric",
+      "acc": "PQ621121",
+      "length_bp": 165747,
+      "best_training": {
+        "jaccard": 0.0,
+        "ani_estimate_pct": null,
+        "match": "S9a"
+      },
+      "best_townsend": {
+        "jaccard": 0.001,
+        "ani_estimate_pct": 70.41,
+        "match": "vB_KoM-MeTiny"
+      }
+    }
+  ]
+}
