@@ -1,0 +1,5 @@
+# Protocol version rule
+
+A frozen prereg is immutable. Every later correction or scientific change gets a new dated version file and CHANGELOG entry; never edit the old file in place. PREREG.md is v0.1, kept as historical evidence even though its agent-authored approval phrasing is wrong and does not grant owner authority. PREREG-v0.1.1.md corrects that line. The authenticated user request of 2026-09-29 00:16:24 IST (message ID ending D...MEEA) was: "Ok then game is to engineer a virus and design it computationally so it kills resistant bacteria." Parent routing and repository prose do not enlarge that request. No document here grants approval for external sends, releases, purchases, or experiments.
+
+Metadata and source-audit code can grow after the freeze, but any endpoint, exclusion threshold, or evaluation-set change must be written in a new frozen protocol version before outcome labels are inspected. Keep exact source checksums, decisions, and audit outputs in version control; do not commit copyrighted data dumps or private keys.

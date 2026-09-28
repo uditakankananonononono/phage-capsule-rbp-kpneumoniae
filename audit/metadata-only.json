@@ -1,0 +1,233 @@
+{
+  "exact_host_id_matches": 0,
+  "exact_phage_name_matches": 0,
+  "external_lifecycle_counts": {
+    "L": 26,
+    "T": 4
+  },
+  "scope": "metadata-only, no interaction matrix opened; no sequence-homology or resistance proof",
+  "status": "NOT CLEARED: genome/RBP and host/K-locus homology audit outstanding; resistance phenotypes independently checked for NCTC 13439, 13440, 13442, 13443 only; labels unopened.",
+  "townsend_hosts": [
+    {
+      "exact_id_in_train": false,
+      "k_locus": "\u2014",
+      "species": "Klebsiella aerogenes",
+      "strain": "30053"
+    },
+    {
+      "exact_id_in_train": false,
+      "k_locus": "O1v1",
+      "species": "Klebsiella michiganensis",
+      "strain": "25444"
+    },
+    {
+      "exact_id_in_train": false,
+      "k_locus": "O1v1",
+      "species": "Klebsiella oxytoca",
+      "strain": "170748"
+    },
+    {
+      "exact_id_in_train": false,
+      "k_locus": "KL28",
+      "species": "Klebsiella pneumoniae",
+      "strain": "170958"
+    },
+    {
+      "exact_id_in_train": false,
+      "k_locus": "KL14",
+      "species": "Klebsiella variicola",
+      "strain": "W12"
+    },
+    {
+      "exact_id_in_train": false,
+      "k_locus": "KL35",
+      "species": "Klebsiella quasipneumoniae",
+      "strain": "28211"
+    }
+  ],
+  "townsend_phages": [
+    {
+      "ena_project": "PRJEB40146",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "T",
+      "phage": "vB_KppS-Eggy"
+    },
+    {
+      "ena_project": "PRJEB40147",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "T",
+      "phage": "vB_KppS-Pokey"
+    },
+    {
+      "ena_project": "PRJEB40132",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "T",
+      "phage": "vB_KppS-Raw"
+    },
+    {
+      "ena_project": "PRJEB40148",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "T",
+      "phage": "vB_KppS-Ant"
+    },
+    {
+      "ena_project": "PRJEB40160",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KaS-Ahsoka"
+    },
+    {
+      "ena_project": "PRJEB40159",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KaS-Gatomon"
+    },
+    {
+      "ena_project": "PRJEB40161",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KppS-Samwise"
+    },
+    {
+      "ena_project": "PRJEB40131",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KvM-Eowyn"
+    },
+    {
+      "ena_project": "PRJEB40164",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KpP-Screen"
+    },
+    {
+      "ena_project": "PRJEB40162",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KpP-Yoda"
+    },
+    {
+      "ena_project": "PRJEB40163",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KqP-Goliath"
+    },
+    {
+      "ena_project": "PRJEB39773",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KaS-Benoit"
+    },
+    {
+      "ena_project": "PRJEB40165",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KaS-Veronica"
+    },
+    {
+      "ena_project": "PRJEB40170",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KppS-Anoxic"
+    },
+    {
+      "ena_project": "PRJEB40168",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KppS-Jiji"
+    },
+    {
+      "ena_project": "PRJEB40167",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KppS-Ponyo"
+    },
+    {
+      "ena_project": "PRJEB40169",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KppS-Storm"
+    },
+    {
+      "ena_project": "PRJEB40166",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KppS-Totoro"
+    },
+    {
+      "ena_project": "PRJEB40172",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KqM-Bilbo"
+    },
+    {
+      "ena_project": "PRJEB40171",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KqM-LilBean"
+    },
+    {
+      "ena_project": "PRJEB40173",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KqM-Westerburg"
+    },
+    {
+      "ena_project": "PRJEB40174",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KoM-Liquor"
+    },
+    {
+      "ena_project": "PRJEB40179",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KoM-MeTiny"
+    },
+    {
+      "ena_project": "PRJEB40176",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KoM-Pickle"
+    },
+    {
+      "ena_project": "PRJEB40178",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KpM-KalD"
+    },
+    {
+      "ena_project": "PRJEB40177",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KpM-Mild"
+    },
+    {
+      "ena_project": "PRJEB40175",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KoM-Milk"
+    },
+    {
+      "ena_project": "PRJEB40180",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KpM-SoFaint"
+    },
+    {
+      "ena_project": "PRJEB40181",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KoM-Flushed"
+    },
+    {
+      "ena_project": "PRJEB40182",
+      "exact_name_in_train": false,
+      "lifecycle_paper": "L",
+      "phage": "vB_KpM-Wobble"
+    }
+  ],
+  "train_hosts": 200,
+  "train_phages": 105,
+  "train_rbp_records": 274
+}
