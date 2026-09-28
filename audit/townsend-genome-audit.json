@@ -15,7 +15,9 @@
     "lifecycle_paper": "T",
     "accession": "LR881077",
     "description": "Klebsiella phage vB_KppS-Pokey genome assembly, chromosome: 1",
-    "error": "The read operation timed out"
+    "error": null,
+    "length": 61345,
+    "genome_sha256": "c0cf6a68a0a0408804828e0cf772b04ec98ff0c77996797778dec3a4cf8628e4"
   },
   {
     "name": "vB_KppS-Raw",
@@ -33,7 +35,9 @@
     "lifecycle_paper": "T",
     "accession": "LR881103",
     "description": "Escherichia phage vB_KppS-Ant genome assembly, chromosome: 1",
-    "error": "The read operation timed out"
+    "error": null,
+    "length": 16548,
+    "genome_sha256": "1ca61929e5cd611d68bc7cd885871050ca39c240d934800abe8e70c13ef26c04"
   },
   {
     "name": "vB_KaS-Ahsoka",
@@ -111,7 +115,9 @@
     "lifecycle_paper": "L",
     "accession": "LR880965",
     "description": "Klebsiella phage vB_KaS-Benoit genome assembly, chromosome: 1",
-    "error": "The read operation timed out"
+    "error": null,
+    "length": 109017,
+    "genome_sha256": "dcc0b54da06d65d02e3e8eb99646902675b481e6b67dbff137be17fad99a5992"
   },
   {
     "name": "vB_KaS-Veronica",
@@ -119,7 +125,9 @@
     "lifecycle_paper": "L",
     "accession": "LR881116",
     "description": "Klebsiella phage vB_KaS-Veronica genome assembly, chromosome: 1",
-    "error": "The read operation timed out"
+    "error": null,
+    "length": 110196,
+    "genome_sha256": "4fbd2c73cdc98b8124b890e932ee5667f90431468df50988c0725b2673625048"
   },
   {
     "name": "vB_KppS-Anoxic",
@@ -167,7 +175,9 @@
     "lifecycle_paper": "L",
     "accession": "LR881113",
     "description": "Klebsiella phage vB_KppS-Totoro genome assembly, chromosome: 1",
-    "error": "The read operation timed out"
+    "error": null,
+    "length": 109014,
+    "genome_sha256": "37e8353572ccdf27f6e544ba4f5f0077413c5810e77b80126b052bc78b946102"
   },
   {
     "name": "vB_KqM-Bilbo",
@@ -175,7 +185,9 @@
     "lifecycle_paper": "L",
     "accession": "LR881138",
     "description": "Klebsiella phage vB_KqM-Bilbo genome assembly, chromosome: 1",
-    "error": "The read operation timed out"
+    "error": null,
+    "length": 158858,
+    "genome_sha256": "5a943806c1b6f81604cd3f8904e84519fb8ae044c299ed14078d610601f98c7a"
   },
   {
     "name": "vB_KqM-LilBean",
@@ -193,7 +205,9 @@
     "lifecycle_paper": "L",
     "accession": "LR881137",
     "description": "Klebsiella phage vB_KqM-Westerburg genome assembly, chromosome: 1",
-    "error": "The read operation timed out"
+    "error": null,
+    "length": 158883,
+    "genome_sha256": "761a8c8fc8016b23e8c89ec0b2fb6cfe3f17ea2001e5cfac82c656740e58d46e"
   },
   {
     "name": "vB_KoM-Liquor",
