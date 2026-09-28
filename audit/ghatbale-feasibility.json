@@ -1,0 +1,922 @@
+{
+  "primary_cre": {
+    "KP307": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP310": {
+      "tested": 6,
+      "complete_pos": 3,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "complete_lysis",
+        "LK1": "no_lysis",
+        "Rec": "complete_lysis",
+        "Turmeric": "complete_lysis"
+      }
+    },
+    "KP312": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "complete_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP361": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "light_lysis",
+        "LK1": "light_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP99": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "medium_lysis",
+        "Beam": "light_lysis",
+        "LK1": "complete_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "light_lysis"
+      }
+    }
+  },
+  "primary_cre_with_flagged_KL35": {
+    "KP307": {
+      "tested": 7,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "KL35": "light_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP310": {
+      "tested": 7,
+      "complete_pos": 4,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "complete_lysis",
+        "KL35": "complete_lysis",
+        "LK1": "no_lysis",
+        "Rec": "complete_lysis",
+        "Turmeric": "complete_lysis"
+      }
+    },
+    "KP312": {
+      "tested": 7,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "complete_lysis",
+        "KL35": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP361": {
+      "tested": 7,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "light_lysis",
+        "KL35": "light_lysis",
+        "LK1": "light_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP99": {
+      "tested": 7,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "medium_lysis",
+        "Beam": "light_lysis",
+        "KL35": "light_lysis",
+        "LK1": "complete_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "light_lysis"
+      }
+    }
+  },
+  "secondary_full": {
+    "KP101": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP103": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP104": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "complete_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP106": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP111": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP112": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "light_lysis",
+        "Ace": "no_lysis",
+        "Beam": "light_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "complete_lysis"
+      }
+    },
+    "KP114": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "medium_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP117": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "light_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "complete_lysis"
+      }
+    },
+    "KP118": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP122": {
+      "tested": 6,
+      "complete_pos": 3,
+      "eligible": true,
+      "cells": {
+        "APV": "complete_lysis",
+        "Ace": "complete_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "complete_lysis"
+      }
+    },
+    "KP124": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "light_lysis",
+        "Ace": "light_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP125": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "medium_lysis",
+        "Ace": "light_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP127": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "medium_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP130": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP134": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP135": {
+      "tested": 6,
+      "complete_pos": 2,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "complete_lysis",
+        "Beam": "light_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "complete_lysis"
+      }
+    },
+    "KP137": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP301": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "complete_lysis",
+        "LK1": "light_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP302": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP303": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP304": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "light_lysis",
+        "Ace": "complete_lysis",
+        "Beam": "light_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP305": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "complete_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "light_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP306": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "light_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP307": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP308": {
+      "tested": 6,
+      "complete_pos": 2,
+      "eligible": true,
+      "cells": {
+        "APV": "light_lysis",
+        "Ace": "complete_lysis",
+        "Beam": "light_lysis",
+        "LK1": "complete_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP309": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "light_lysis",
+        "LK1": "complete_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP310": {
+      "tested": 6,
+      "complete_pos": 3,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "complete_lysis",
+        "LK1": "no_lysis",
+        "Rec": "complete_lysis",
+        "Turmeric": "complete_lysis"
+      }
+    },
+    "KP311": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "complete_lysis",
+        "LK1": "no_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP312": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "complete_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP313": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "complete_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP314": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP315": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "light_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP316": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP317": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP318": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "complete_lysis",
+        "Beam": "light_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP319": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "medium_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP320": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "light_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP321": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "light_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP328": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "light_lysis",
+        "LK1": "no_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP329": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "complete_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP331": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "light_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP332": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP333": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "light_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP334": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "light_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP337": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "medium_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP338": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP339": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "medium_lysis",
+        "Beam": "light_lysis",
+        "LK1": "complete_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP340": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "complete_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP341": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP342": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "complete_lysis",
+        "Beam": "light_lysis",
+        "LK1": "light_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP343": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "light_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP344": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "light_lysis",
+        "LK1": "no_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP345": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "complete_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP346": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "no_lysis",
+        "LK1": "no_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP360": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "medium_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "medium_lysis"
+      }
+    },
+    "KP361": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "light_lysis",
+        "Beam": "light_lysis",
+        "LK1": "light_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP96": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "complete_lysis",
+        "Ace": "medium_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "no_lysis",
+        "Rec": "light_lysis",
+        "Turmeric": "light_lysis"
+      }
+    },
+    "KP98": {
+      "tested": 6,
+      "complete_pos": 0,
+      "eligible": false,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "no_lysis",
+        "Beam": "medium_lysis",
+        "LK1": "no_lysis",
+        "Rec": "medium_lysis",
+        "Turmeric": "no_lysis"
+      }
+    },
+    "KP99": {
+      "tested": 6,
+      "complete_pos": 1,
+      "eligible": true,
+      "cells": {
+        "APV": "no_lysis",
+        "Ace": "medium_lysis",
+        "Beam": "light_lysis",
+        "LK1": "complete_lysis",
+        "Rec": "no_lysis",
+        "Turmeric": "light_lysis"
+      }
+    }
+  },
+  "phages_verified": [
+    "APV",
+    "Ace",
+    "LK1",
+    "Beam",
+    "Rec",
+    "Turmeric"
+  ],
+  "phages_held": [
+    "KL35"
+  ],
+  "note": "positives=complete_lysis only per frozen v0.2.0"
+}

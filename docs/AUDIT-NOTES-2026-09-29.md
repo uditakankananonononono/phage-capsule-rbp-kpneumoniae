@@ -19,3 +19,14 @@ Ghatbale provenance/overlap vet complete: no exact genome matches (training or T
 ## MMseqs2 nucleotide confirmation blocked (added 00:59 IST)
 
 MMseqs2 (17-b804f static binary) installs and runs, but nucleotide search-type-3 prefilter index does not fit this container's memory (fails at 700M and 500M split limits, db-load-mode 2). Full-alignment confirmation for Chai (and LK2/LK3/QTY) is therefore environment-blocked. Under frozen amendment v0.2.0 the conservative default holds: LK2/LK3/QTY stay EXCLUDED on the MinHash estimate, Chai stays QUARANTINED (= excluded from scoring until confirmed elsewhere). Protein-level MMseqs2 (the RBP screen, search-type 1) uses far smaller DBs and remains to be tested; if it also fails, unscoreable phages stay quarantined per v0.1.2/v0.2.0.
+
+## Ghatbale Fig S2 transcription + feasibility (added 01:06 IST)
+
+Independent transcription received via parent from the contracted analyst (same-analyst two-pass, 300dpi + independent 600dpi render, 649/649 cells agreed; SHA256 62cbaf7945f5b9e8558797e139a3b5e80c230f34ec1e2cc2165c5a1142eb6762). Counts: 38 complete, 70 medium, 128 light, 413 none. Provenance: analyst-delivered artifact relayed by parent; the "independent" label means independent-of-me, same-analyst across passes - recorded as such.
+
+Frozen v0.2.0 feasibility arithmetic (positives = complete_lysis only; clean verified phages APV, Ace, LK1, Beam, Rec, Turmeric; LK2/LK3/QTY excluded on MinHash species screen; Chai quarantined; KL35 HELD pending cell audit - its row count (44/59) disagrees with the printed aggregate (43/59), flagged not forced):
+- PRIMARY CRE arm: KP310 (3 complete positives), KP312 (1), KP99 (1) ELIGIBLE; KP307 (0), KP361 (0) ineligible. 3 eligible hosts = meets frozen min-3 rule -> PRIMARY ARM IS EVALUABLE. Identical outcome with flagged KL35 included (robust).
+- SECONDARY full panel: 22 eligible hosts.
+Documented source discrepancies honored: (1) KP125 figure label vs KP129 in Table S3 - KP125 kept verbatim, NO resistance metadata attached; (2) KL35/QTY row-count mismatches flagged, KL35 held from primary scoring pending cell audit (QTY already excluded); (3) KP111 (K. oxytoca) and KP124/KP134 (K. aerogenes) species unresolved - flagged, not claimed as K. pneumoniae; (4) KP99 sits in the figure's Non-ESBL section but Table S3 marks it Carbapenem - figure_section treated as position only, CRE status taken from the star marks (KP99, KP307, KP310, KP312, KP361).
+
+Next: model scoring requires ESM2 embeddings for the 6 verified phages' RBPs and the 5 CRE hosts' K-loci (from PRJNA1189177 assemblies); embedding computation on CPU is the next work item. No outcome scoring has been run against model predictions.
