@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+raw/
+*.fasta
+*.fastq
+*.fa
+*.zip
+keys/
+*.pem
+id_ed25519*
