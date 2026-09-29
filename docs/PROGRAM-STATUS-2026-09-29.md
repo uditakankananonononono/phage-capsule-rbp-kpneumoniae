@@ -1,0 +1,9 @@
+# Program closeout status, 2026-09-29
+
+This is not a successful external validation. The frozen Townsend gate is unevaluable from sparse positives (3/1/0/0 on four carbapenemase-reference hosts). The Ghatbale cohort is excluded on the preregistered RBP homology rule, confirmed by an independent BLAST+ 2.17.0 analysis of the committed sequence FASTAs. No thresholds were loosened to rescue the gate. The global exposure ledger was checked before this training-only reproduction; Townsend is already marked outcome-exposed. No newly locked outcomes were opened.
+
+Verified: protocol freeze trail, accession and sequence provenance audit, conservative cohort exclusions, Ghatbale BLAST corroboration, author training-pair count (10,006 tested embedding-eligible pairs; 333 positives; 131 LOO-eligible hosts). Training-side LOO metrics in code/train_eval_baseline.json and per-host CSV (103/131 hit@5 = 0.7863; AUROC mean 0.8113 across 131 hosts) are a prototype diagnostic, accompanied by code and source hashes; they cannot establish superiority over published PhageHostLearn or independent CRKP performance.
+
+Thin: sequence relatedness audit relied on bounded exact/MinHash comparisons plus RBP homology checks and lacks a systematic genome-wide/host-KL independent-panel audit. Ghatbale's image transcription was independent of this lane, but the 300/600 dpi passes were by the same analyst. Host resistance and phenotype support is uneven and several host genomes were unavailable. The model prototype uses precomputed ESM2 vectors, no calibrated deployment threshold.
+
+Missing: published baseline reproduction, external paired test/CI, mechanism ablation, full safety cargo and off-target screening, validated capsule-aware tool, qualified candidate. No candidate nomination or safety claim. Next scientific path is prospective truly independent data with exposure review and preregistration, not post-hoc relaxation or scoring the excluded cohorts.

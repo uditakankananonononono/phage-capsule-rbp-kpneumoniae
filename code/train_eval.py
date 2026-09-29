@@ -2,13 +2,13 @@
 """Leakage-safe training-side evaluation, prereg v0.1.1:
 leave-one-HOST-out over hosts with >=5 tested eligible phages and >=1 positive.
 XGBoost (hist) on [mean-RBP | locus] ESM2 features, fixed seed 20260929.
-Training data only; external Ghatbale test untouched."""
-import pandas as pd, numpy as np, json, time
+Training data only; external Ghatbale outcomes not used here; external cohort excluded after RBP audit."""
+import pandas as pd, numpy as np, json, time, os
 from xgboost import XGBClassifier
 from sklearn.metrics import roc_auc_score
 SEED=20260929
-R='/tmp/deep-research/phage-kp/raw'
-df=pd.read_csv('/tmp/deep-research/phage-kp/work_pairs.csv')
+R=os.environ.get('PHAGE_RAW_DIR','/tmp/deep-research/phage-kp/raw')
+df=pd.read_csv(os.environ.get('PHAGE_PAIRS_CSV','data/work_pairs.csv'))
 loci=pd.read_csv(f'{R}/esm2_embeddings_loci.csv',index_col=0)
 rbp=pd.read_csv(f'{R}/esm2_embeddings_rbp.csv')
 rbp_mean=rbp.groupby('phage_ID').mean(numeric_only=True)
@@ -36,7 +36,8 @@ r=pd.DataFrame(res)
 out={'eligible_hosts':len(elig),'mean_hit_at_5':round(float(r['hit@5'].mean()),4),
  'hosts_hit':int(r['hit@5'].sum()),'mean_auroc':round(float(r['auroc'].dropna().mean()),4),
  'auroc_n':int(r['auroc'].notna().sum()),
- 'note':'host-grouped LOO on author training data only; XGB hist depth5 n100 seed 20260929'}
-json.dump(out,open('repo/code/train_eval_baseline.json','w'),indent=2)
-r.to_csv('repo/code/train_eval_baseline_perhost.csv',index=False)
+ 'note':'host-grouped LOO on author training data only; XGB hist depth4 n60 seed 20260929'}
+json.dump(out,open('code/train_eval_baseline.json','w'),indent=2)
+r.to_csv('code/train_eval_baseline_perhost.csv',index=False)
 print(json.dumps(out,indent=2),flush=True)
+

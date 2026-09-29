@@ -1,0 +1,13 @@
+{
+  "eligible_hosts": 131,
+  "hosts_hit": 103,
+  "mean_hit_at_5": 0.7863,
+  "auroc_n": 131,
+  "mean_auroc": 0.8113,
+  "note": "Training-side host-grouped LOO diagnostic only, author training data Zenodo 11061100; 60 XGBoost hist trees, depth 4, seed 20260929; not published PhageHostLearn baseline or external validation",
+  "input_sha256": {
+    "phage_host_interactions.csv": "b9d8822ca73de87036bfe46c05db5e8efc1a31804a7ea07915cf1503d9d8c8c1",
+    "esm2_embeddings_loci.csv": "e448936b34755bea473978710cd39c046fd8174381029e0ca8c455226c549e59",
+    "esm2_embeddings_rbp.csv": "c282a434f92b6702d54baa821adcdb563070020e9b9fe29a045a1515e53bc990"
+  }
+}
