@@ -14,8 +14,14 @@ On `code/train_eval_baseline_perhost.csv`, `code/training_side_ci.py` draws 10,0
 ## Safety screen status
 `code/safety_inventory.py` verifies the deposited phage-genome archive MD5 f43159fd3473e2d22a56fec27e8d443c and inventories genome availability for the 105 author-training phages with RBP embeddings (105/105 present, 0 multi-record FASTAs, two FASTAs with ambiguous letters). This is **not a curated safety screen**: one FASTA record does not prove a complete genome or verified ends, and no curated lysogeny, AMR, toxin, virulence, or beneficial-commensal off-target search was executed. All 105 records are unverified and fail nomination readiness. Neither no-hit nor predicted narrow range would prove safety. No candidate names, therapy suggestion, sequence designs, or laboratory actions follow from this inventory.
 
-## Mechanism ablation
-Not executed yet. A valid check would retrain locus-only and RBP-only under the **same** host-grouped LOO folds and compare per-host performance with the full prototype. Feature removal cannot prove capsule binding. Until completed, no mechanism claim is warranted.
+## Mechanism feature removal: completed on author-training LOO only
+`code/mechanism_ablation.py` retrains all 131 held-out-host folds using the prototype hyperparameters on full `[mean RBP | locus]`, RBP-only, and locus-only inputs. `code/summarize_ablation.py` verifies exact full-arm **per-host** hit@5 and AUROC equality to `code/train_eval_baseline_perhost.csv` for every host, requires all 131 fold files, and writes reproducible results to `code/ablation_perhost.csv` and `code/ablation_summary.json`. Pair-level labels and folds are unchanged, and all uncertainty intervals resample the *same* 131 hosts in 10,000 paired percentile-bootstrap draws (seed 20260929).
 
-### Ablation execution checkpoint
-`code/mechanism_ablation.py` implements three feature sets on identical author-training host LOO folds with identical prototype XGBoost settings: full `[mean RBP | locus]`, mean RBP only, and locus only. The initial 5/131 host slice is in `code/ablation_parts/`, not an interpretable estimate. Full-arm values for these hosts match the archived baseline per-host result. The remaining 126 hosts were not run as of this checkpoint; no aggregated ablation conclusion follows from five hosts.
+| Training-side arm | Host hit@5 | Macro host AUROC |
+|---|---:|---:|
+| Full prototype | 103/131 = 0.7863 | 0.8113 |
+| RBP-only | 86/131 = 0.6565 | 0.6941 |
+| Locus-only | 16/131 = 0.1221 | 0.5000 |
+
+Full minus RBP-only paired host hit@5 difference 0.1298 (95% bootstrap CI 0.0458-0.2137); macro AUROC difference 0.1172 (0.0825-0.1539). Full minus locus-only hit difference 0.6641 (0.5725-0.7557); AUROC difference 0.3113 (0.2645-0.3552). **Interpretation guard:** for a single held-out host, locus-only features are identical across all candidate phages. Its AUROC 0.5 follows structurally, and its hit@5 reflects an arbitrary input-order tie break. Do not infer a biological receptor mechanism from this trivial no-phage arm. The full-vs-RBP-only difference suggests host-locus features aid this author-training diagnostic, but does not establish physical capsule binding, cross-cohort transport, a comparable published-baseline improvement, or clinical use.
+

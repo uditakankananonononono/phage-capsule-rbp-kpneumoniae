@@ -1,0 +1,50 @@
+{
+  "scope": "author training-side host-grouped LOO associative feature removal; NOT external validation, mechanism proof or nominated candidate",
+  "seed": 20260929,
+  "bootstrap": "paired host-cluster percentile interval, 10000 resamples, same host indices across arms",
+  "hosts": 131,
+  "full_matches_archived_baseline_perhost": true,
+  "arm": {
+    "full": {
+      "hit_at_5": 0.7862595419847328,
+      "hit_hosts": 103,
+      "macro_auroc": 0.8113234834747461
+    },
+    "rbp_only": {
+      "hit_at_5": 0.6564885496183206,
+      "hit_hosts": 86,
+      "macro_auroc": 0.6941294273626202
+    },
+    "locus_only": {
+      "hit_at_5": 0.12213740458015267,
+      "hit_hosts": 16,
+      "macro_auroc": 0.5
+    }
+  },
+  "contrast_full_minus": {
+    "rbp_only": {
+      "hit_at_5_delta": 0.1297709923664122,
+      "hit_at_5_ci95": [
+        0.04580152671755725,
+        0.21374045801526717
+      ],
+      "macro_auroc_delta": 0.11719405611212586,
+      "macro_auroc_ci95": [
+        0.08247723134550236,
+        0.15392458921579497
+      ]
+    },
+    "locus_only": {
+      "hit_at_5_delta": 0.6641221374045801,
+      "hit_at_5_ci95": [
+        0.5725190839694656,
+        0.7557251908396947
+      ],
+      "macro_auroc_delta": 0.31132348347474625,
+      "macro_auroc_ci95": [
+        0.26454106719302617,
+        0.3552023296361859
+      ]
+    }
+  }
+}
