@@ -17,6 +17,7 @@ parser=argparse.ArgumentParser()
 parser.add_argument('--raw-dir',type=Path,default=Path(os.environ.get('PHAGE_RAW_DIR','raw')))
 parser.add_argument('--start',type=int,default=0);parser.add_argument('--end',type=int,default=None)
 parser.add_argument('--threshold',type=float,default=.995)
+parser.add_argument('--jobs',type=int,default=2,help='XGBoost CPU threads (does not alter trees or splits)')
 parser.add_argument('--output-dir',type=Path,default=ROOT/'code'/'published_repro_parts')
 a=parser.parse_args();a.output_dir.mkdir(parents=True,exist_ok=True)
 r=a.raw_dir
@@ -47,10 +48,10 @@ print('pairs',len(y),'groups',gid,'threshold',a.threshold,'groups of size>1',sum
 for g in range(a.start,min(gid,a.end if a.end is not None else gid)):
  tr=pg!=g;te=~tr
  imbalance=y[tr].sum()/(len(y[tr])-y[tr].sum())
- model=XGBClassifier(scale_pos_weight=1/imbalance,learning_rate=.3,n_estimators=250,max_depth=7,n_jobs=6,eval_metric='logloss',tree_method='auto',random_state=20260929)
+ model=XGBClassifier(scale_pos_weight=1/imbalance,learning_rate=.3,n_estimators=250,max_depth=7,n_jobs=a.jobs,eval_metric='logloss',tree_method='auto',random_state=20260929)
  model.fit(X[tr],y[tr]);s=model.predict_proba(X[te])[:,1]
  out=pd.DataFrame({'host':np.asarray(pair_h)[te],'phage':np.asarray(pair_p)[te],'y':y[te],'score':s,'group':g})
  out.to_csv(a.output_dir/f'group_{g:03d}.csv',index=False)
  if (g-a.start)%5==0:print('completed group',g, 'test rows',len(out),flush=True)
-meta={'source':'PhageHostLearn published training LOGOCV code, cells 23/30/31','threshold':a.threshold,'groups':gid,'tested_pairs':len(y),'positive_pairs':int(y.sum()),'feature_order':'locus embedding then mean phage RBP embedding','phage_order':'sorted, versus upstream Python set iteration','xgboost':xgboost.__version__,'sklearn':sklearn.__version__,'python':platform.python_version(),'seed':20260929,'sha256':sha}
+meta={'source':'PhageHostLearn published training LOGOCV code, cells 23/30/31','threshold':a.threshold,'groups':gid,'tested_pairs':len(y),'positive_pairs':int(y.sum()),'feature_order':'locus embedding then mean phage RBP embedding','phage_order':'sorted, versus upstream Python set iteration','xgboost':xgboost.__version__,'sklearn':sklearn.__version__,'python':platform.python_version(),'seed':20260929,'n_jobs':a.jobs,'sha256':sha}
 (a.output_dir/'metadata.json').write_text(json.dumps(meta,indent=2)+'\n')
