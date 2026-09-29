@@ -1,0 +1,43 @@
+{
+  "scope": "complete author-parameter PhageHostLearn 0.995 LOGOCV, author training only; not exact original environment or external validation",
+  "groups": 133,
+  "hosts": 200,
+  "pairs": 10006,
+  "positive_pairs": 333,
+  "eligible_hosts_for_descriptive_hit_at_5": 131,
+  "eligible_criterion": "host >=5 tested and >=1 positive; not author notebook aggregate, only supplementary same-denominator description",
+  "eligible_hit_at_5": {
+    "hits": 95,
+    "point": 0.7251908396946565,
+    "host_bootstrap_ci95": [
+      0.648854961832061,
+      0.8015267175572519
+    ]
+  },
+  "eligible_macro_host_auroc": {
+    "hosts_defined": 131,
+    "point": 0.7153003491889037,
+    "host_bootstrap_ci95": [
+      0.6616481154220808,
+      0.7663548811255746
+    ]
+  },
+  "pooled_pair_auroc_all_200_hosts": 0.7513230691665511,
+  "seed": 20260929,
+  "bootstrap_draws": 10000,
+  "environment": {
+    "python": "3.10.12",
+    "xgboost": "3.2.0",
+    "sklearn": "1.7.2",
+    "n_jobs": 2,
+    "seed": 20260929,
+    "phage_order": "sorted, versus upstream Python set iteration"
+  },
+  "source_sha256": {
+    "esm2_embeddings_loci.csv": "e448936b34755bea473978710cd39c046fd8174381029e0ca8c455226c549e59",
+    "esm2_embeddings_rbp.csv": "c282a434f92b6702d54baa821adcdb563070020e9b9fe29a045a1515e53bc990",
+    "phage_host_interactions.csv": "b9d8822ca73de87036bfe46c05db5e8efc1a31804a7ea07915cf1503d9d8c8c1",
+    "all_loci_score_matrix.txt": "7c6a5ba7a7ef0072339791901637e9ab7d6eec6a3ff982979a3dd708cf049b62"
+  },
+  "prediction_sha256": "b951f506b90b49c147a4c4c930a8febcfaef5404ab893e88c1c9aecb6171f538"
+}
