@@ -1,0 +1,747 @@
+{
+  "scope": "LIMITED curated cargo search of 105 author-training phage genomes; NOT safety clearance",
+  "input_zip_md5": "f43159fd3473e2d22a56fec27e8d443c",
+  "tool": "NCBI AMRFinderPlus 4.2.7 --plus protein-only search of Prodigal 2.6.3 meta predicted ORFs; no nucleotide blastx (OOM)",
+  "database": "NCBI AMRFinderPlus 2026-08-07.1",
+  "records_succeeded": 105,
+  "reported_hits_total": 0,
+  "entries": [
+    {
+      "phage": "A1a",
+      "predicted_orfs": 54,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1b",
+      "predicted_orfs": 57,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1c",
+      "predicted_orfs": 53,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1d",
+      "predicted_orfs": 53,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1e",
+      "predicted_orfs": 59,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1f",
+      "predicted_orfs": 58,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1g",
+      "predicted_orfs": 57,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1h",
+      "predicted_orfs": 54,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1i",
+      "predicted_orfs": 49,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1j",
+      "predicted_orfs": 52,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1k",
+      "predicted_orfs": 58,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1l",
+      "predicted_orfs": 58,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1m",
+      "predicted_orfs": 57,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1n",
+      "predicted_orfs": 54,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1o",
+      "predicted_orfs": 54,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1p",
+      "predicted_orfs": 59,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1q",
+      "predicted_orfs": 59,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A1r",
+      "predicted_orfs": 57,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A2a",
+      "predicted_orfs": 54,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A2a_b",
+      "predicted_orfs": 54,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A2b",
+      "predicted_orfs": 54,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A3a",
+      "predicted_orfs": 49,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A3b",
+      "predicted_orfs": 50,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A3c",
+      "predicted_orfs": 49,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "A3d",
+      "predicted_orfs": 47,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "D7a",
+      "predicted_orfs": 76,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "D7b",
+      "predicted_orfs": 79,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "D7c",
+      "predicted_orfs": 76,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K10PH82C1",
+      "predicted_orfs": 50,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K11PH164C1",
+      "predicted_orfs": 47,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K12P1_1",
+      "predicted_orfs": 49,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K13PH07C1L",
+      "predicted_orfs": 55,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K13PH07C1S",
+      "predicted_orfs": 55,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K14PH164C1",
+      "predicted_orfs": 74,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K15PH90",
+      "predicted_orfs": 55,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K16PH164C3",
+      "predicted_orfs": 47,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K17alfa61",
+      "predicted_orfs": 73,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K17alfa62",
+      "predicted_orfs": 95,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K18PH07C1",
+      "predicted_orfs": 260,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K1PH164C1",
+      "predicted_orfs": 56,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K2064PH2",
+      "predicted_orfs": 75,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K2069PH1",
+      "predicted_orfs": 78,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K21lambda1",
+      "predicted_orfs": 69,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K23PH08C2",
+      "predicted_orfs": 250,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K25PH129C1",
+      "predicted_orfs": 59,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K27PH129C1",
+      "predicted_orfs": 49,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K28PH129",
+      "predicted_orfs": 78,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K29PH164C1",
+      "predicted_orfs": 80,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K2PH164C1",
+      "predicted_orfs": 72,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K2PH164C2",
+      "predicted_orfs": 76,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K2alfa62",
+      "predicted_orfs": 74,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K30lambda2",
+      "predicted_orfs": 149,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K32PH164C1",
+      "predicted_orfs": 151,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K33PH14C2",
+      "predicted_orfs": 83,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K34PH164",
+      "predicted_orfs": 58,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K35PH164C3",
+      "predicted_orfs": 49,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K39PH122C2",
+      "predicted_orfs": 55,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K40PH129C1",
+      "predicted_orfs": 54,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K43PH164C1",
+      "predicted_orfs": 46,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K45PH128C2",
+      "predicted_orfs": 254,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K46PH129",
+      "predicted_orfs": 75,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K48PH164C1",
+      "predicted_orfs": 51,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K49PH164C2",
+      "predicted_orfs": 60,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K50PH164C1",
+      "predicted_orfs": 74,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K51PH129C1",
+      "predicted_orfs": 60,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K52PH129C1",
+      "predicted_orfs": 76,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K53PH164C2",
+      "predicted_orfs": 75,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K54lambda1",
+      "predicted_orfs": 249,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K54lambda2",
+      "predicted_orfs": 74,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K56PH164C1",
+      "predicted_orfs": 49,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K57lambda1",
+      "predicted_orfs": 93,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K58PH129C2",
+      "predicted_orfs": 48,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K60PH164C1",
+      "predicted_orfs": 93,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K61PH164C1",
+      "predicted_orfs": 55,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K62PH164C2",
+      "predicted_orfs": 82,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K63PH128",
+      "predicted_orfs": 82,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K65PH164",
+      "predicted_orfs": 279,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K66PH128C1",
+      "predicted_orfs": 60,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K69PH164C2",
+      "predicted_orfs": 74,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K6PH25C3",
+      "predicted_orfs": 81,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K71PH129C1",
+      "predicted_orfs": 57,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K72PH164C2",
+      "predicted_orfs": 55,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K74PH129C2",
+      "predicted_orfs": 52,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K7PH164C4",
+      "predicted_orfs": 147,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K82P1",
+      "predicted_orfs": 46,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K8PH128",
+      "predicted_orfs": 47,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "K9PH25C2",
+      "predicted_orfs": 91,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "M12a",
+      "predicted_orfs": 77,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "M5a",
+      "predicted_orfs": 241,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "M5b",
+      "predicted_orfs": 250,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "P4a",
+      "predicted_orfs": 90,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "P4b",
+      "predicted_orfs": 94,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S10a",
+      "predicted_orfs": 108,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S11a",
+      "predicted_orfs": 58,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S13a",
+      "predicted_orfs": 80,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S13b",
+      "predicted_orfs": 80,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S13c",
+      "predicted_orfs": 81,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S13d",
+      "predicted_orfs": 82,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S13e",
+      "predicted_orfs": 78,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S13f",
+      "predicted_orfs": 83,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S6a",
+      "predicted_orfs": 69,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S8a",
+      "predicted_orfs": 62,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S8b",
+      "predicted_orfs": 60,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S8c",
+      "predicted_orfs": 59,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    },
+    {
+      "phage": "S9a",
+      "predicted_orfs": 80,
+      "reported_hits": 0,
+      "types": {},
+      "report_sha256": "3cdb68648e52636a2bf46cd0f3b3b6d0cef1cb36520a3df7fd3487555f2a72fb"
+    }
+  ],
+  "limits": "No hit means only no report under these reference database, protein calling and cutoff settings; missing ORFs, novel cargo, toxin outside this database, unverified genome ends and incomplete curated viral lifecycle coverage remain. No phage is cleared. Commensal off-target panel and lifecycle-specific tools were not run.",
+  "nomination_count": 0
+}
