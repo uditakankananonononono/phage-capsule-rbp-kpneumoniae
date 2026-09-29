@@ -1,0 +1,22 @@
+{
+  "scope": "author-training host-grouped LOO diagnostic only, no external validation or superiority claim",
+  "method": "host-cluster percentile bootstrap, 10000 draws with replacement; every held-out host equally weighted",
+  "seed": 20260929,
+  "hosts": 131,
+  "hit_at_5": {
+    "successes": 103,
+    "point": 0.7862595419847328,
+    "ci95": [
+      0.7099236641221374,
+      0.8549618320610687
+    ]
+  },
+  "macro_auroc": {
+    "hosts": 131,
+    "point": 0.8113234834747461,
+    "ci95": [
+      0.7645410671930261,
+      0.8552023296361856
+    ]
+  }
+}

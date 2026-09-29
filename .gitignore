@@ -8,3 +8,6 @@ raw/
 keys/
 *.pem
 id_ed25519*
+# Working partial fold-level results; only complete, verified aggregate runs should be committed
+code/published_repro_parts/
+code/ablation_parts/
