@@ -8,3 +8,5 @@ record_id	file	bytes	md5
 11061100	klebsiella_genomes.zip	341431818	9393f4953bb4de87ed15c7b286adf2f4
 14852842	Supplementary_Data1.zip	49163841	ca35a0764f79b3277734091f330a7edf
 14852842	Supplementary_Data2.zip	692527	930c057367d7efc617db33e50dcc099d
+11061100	esm2_embeddings_loci.csv	3123617	f13af74b8ebad5c42cbde3c1552abb89
+11061100	esm2_embeddings_rbp.csv	6815459	f70e85f6bd94bb5687f2aeb938b60b19

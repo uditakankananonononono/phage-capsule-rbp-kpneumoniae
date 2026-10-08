@@ -1,0 +1,117 @@
+{
+  "scope": "retrospective arithmetic, coverage and provenance only; no model refit, design, efficacy or safety clearance",
+  "audit_environment": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  },
+  "artifact_sha256": {
+    "data/work_pairs.csv": "e25bf56f663777ed36715cff20192d3cb80a89576ece38f230b76a336d9b2719",
+    "code/train_eval_baseline_perhost.csv": "1606af12423cdc871cf131a54b2c54949cbbb84a2a9abd823e81a05a304f0281",
+    "code/ablation_perhost.csv": "e7bb011709ff8fd43c8293d8d7abdac4d51cb528690bde7feaa704a374495a63",
+    "code/published_repro_perhost.csv": "4a92470b43664e6e466e2e6c50bb906d7f118a53ef061af06a90f70923b13e5f",
+    "code/published_repro_predictions.csv.gz": "826568b2def3792dd1dc7075a2f602f894ecf88b1e659f22b204b4aa5852ce9f",
+    "code/safety_inventory.json": "82133c53f284503cfc50f091d9d15b81d28775f0f70e46a984c54ff2056c4d9a",
+    "code/cargo_screen_limited.json": "ec688fead1eda08abe0896b10560a12e0c2f97fc458234c8c0574f099e7ffdd7"
+  },
+  "checks": {
+    "prototype": {
+      "eligible_hosts": 131,
+      "hits": 103,
+      "hit_at_5": 0.7862595419847328,
+      "macro_auroc": 0.8113234834747461,
+      "hit_ci95": [
+        0.7099236641221374,
+        0.8549618320610687
+      ],
+      "auroc_ci95": [
+        0.7645410671930261,
+        0.8552023296361856
+      ],
+      "full_ablation_matches_all_archived_host_metrics": true,
+      "pair_scores_archived": false,
+      "model_refit_performed": false
+    },
+    "ablation": {
+      "full": {
+        "hits": 103,
+        "hit_at_5": 0.7862595419847328,
+        "macro_auroc": 0.8113234834747461
+      },
+      "rbp_only": {
+        "hits": 86,
+        "hit_at_5": 0.6564885496183206,
+        "macro_auroc": 0.6941294273626202
+      },
+      "locus_only": {
+        "hits": 16,
+        "hit_at_5": 0.12213740458015267,
+        "macro_auroc": 0.5
+      }
+    },
+    "author_parameter_reimplementation": {
+      "groups_covered": 133,
+      "hosts": 200,
+      "pairs": 10006,
+      "positives": 333,
+      "eligible_hosts": 131,
+      "hits": 95,
+      "hit_at_5": 0.7251908396946565,
+      "macro_auroc": 0.7153003491889037,
+      "pooled_pair_auroc": 0.751323069166551,
+      "hit_ci95": [
+        0.648854961832061,
+        0.8015267175572519
+      ],
+      "macro_auroc_ci95": [
+        0.6616481154220808,
+        0.7663548811255746
+      ],
+      "canonical_prediction_sha256": "b951f506b90b49c147a4c4c930a8febcfaef5404ab893e88c1c9aecb6171f538",
+      "model_refit_performed": false
+    },
+    "safety_evidence": {
+      "inventoried_phages": 105,
+      "cleared": 0,
+      "nominated": 0,
+      "reported_protein_only_cargo_search_records": 105,
+      "reported_cargo_hits": 0,
+      "reported_predicted_orfs": 8382,
+      "raw_cargo_reports_logs_orf_files_in_repository": false,
+      "cargo_execution_independently_verified": false,
+      "unchecked": [
+        "closed genome ends",
+        "viral lifestyle",
+        "complete AMR/toxin/virulence coverage",
+        "uncalled ORFs and nucleotide-mode search",
+        "commensal off-target panel",
+        "empirical safety"
+      ]
+    },
+    "live_author_inputs": {
+      "deposited_md5_matches": {
+        "all_loci_score_matrix.txt": "md5:33d6a332e74d04428434a728deac0ece",
+        "esm2_embeddings_rbp.csv": "md5:f70e85f6bd94bb5687f2aeb938b60b19",
+        "esm2_embeddings_loci.csv": "md5:f13af74b8ebad5c42cbde3c1552abb89",
+        "phages_genomes.zip": "md5:f43159fd3473e2d22a56fec27e8d443c",
+        "phage_host_interactions.csv": "md5:e4f7f15779f698f3b0f76164c9d44f22"
+      },
+      "genome_inventory_counts_match": true,
+      "source_sha256_matches": {
+        "esm2_embeddings_loci.csv": "e448936b34755bea473978710cd39c046fd8174381029e0ca8c455226c549e59",
+        "esm2_embeddings_rbp.csv": "c282a434f92b6702d54baa821adcdb563070020e9b9fe29a045a1515e53bc990",
+        "phage_host_interactions.csv": "b9d8822ca73de87036bfe46c05db5e8efc1a31804a7ea07915cf1503d9d8c8c1",
+        "all_loci_score_matrix.txt": "7c6a5ba7a7ef0072339791901637e9ab7d6eec6a3ff982979a3dd708cf049b62"
+      },
+      "all_labels_and_group_assignments_match": true,
+      "genome_zip_md5_matches": true
+    }
+  },
+  "limits": [
+    "Arithmetic verification does not attest model execution or fitted provenance.",
+    "Prototype/ablation pair-level scores and individual fold files are not archived.",
+    "Raw AMRFinder reports, logs and ORFs are not archived; only their summary hashes are present.",
+    "Different host vs locus-group partitions preclude a fair paired superiority claim.",
+    "Bootstrap resamples fixed training-side host results, not retrained models or external cohorts."
+  ]
+}

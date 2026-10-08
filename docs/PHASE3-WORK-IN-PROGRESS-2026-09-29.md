@@ -1,4 +1,6 @@
-# Phase 3 checkpoint: ongoing author-parameter reproduction
+# Historical phase-3 checkpoint: partial author-parameter reproduction
+
+**Superseded:** this 48/133 checkpoint is retained as history, not current status. Complete 133-group artifacts are documented in `PHASE3-BASELINE-2026-09-29.md`; the independent October 8 retrospective check is `RETROSPECTIVE-AUDIT-2026-10-08.md`. The cargo-search summary is also newer than this checkpoint, but raw execution evidence remains missing. No clearance or nomination follows.
 
 At this checkpoint, 48 of 133 PhageHostLearn-style leave-one-locus-group-out fits have completed locally. Fold CSVs remain uncommitted working files under ignored `code/published_repro_parts/`; **no incomplete baseline performance statistic is reported**. The next fold is 48. The complete 133-fold run, input/row validation, and aggregation remain to do. Local folds 0 through 47 are present. A repeated run of fold 0 returned byte-identical CSV (SHA-256 `0ba82514142e68553b7f94ad5dbe0c706cf311a7deced4ad5b760e3a4ecff503`).
 
